@@ -3,17 +3,6 @@ import streamlit as st
 from snowflake.snowpark.functions import col
 
 
-st.secrets["OpenAI_key"] == "your OpenAI key"
-"sally" in st.secrets.whitelist
-st.secrets["smoothies"]["Cherifa"] == "your username"
-st.secrets.database.password == "your password"
-
-
-
-
-
-
-
 cnx = st.connection('Snowflake')
 session = cnx.session()
 
